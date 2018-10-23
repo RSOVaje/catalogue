@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: si.fri.pictures:catalogue-models:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/si/fri/pictures/catalogue-models/unknown/catalogue-models-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/si/fri/pictures/catalogue-models/unknown/catalogue-models-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/si/fri/pictures/catalogue-models/unknown/catalogue-models-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

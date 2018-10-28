@@ -61,18 +61,18 @@
       </dependency>
 
       <dependency>
-        <groupId>si.fri.rso.samples</groupId>
-        <artifactId>customers-api</artifactId>
+        <groupId>si.fri.pictures</groupId>
+        <artifactId>api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>si.fri.rso.samples</groupId>
-        <artifactId>customers-models</artifactId>
+        <groupId>si.fri.pictures</groupId>
+        <artifactId>models</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>si.fri.rso.samples</groupId>
-        <artifactId>customers-services</artifactId>
+        <groupId>si.fri.pictures</groupId>
+        <artifactId>services</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

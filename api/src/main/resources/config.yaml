@@ -1,24 +1,24 @@
 kumuluzee:
-  name: pictures
+  name: catalogue
   env:
     name: dev
-  version: 1.0.0
+  version: 1.0
   server:
     base-url: http://localhost:8080
     http:
       port: 8080
   datasources:
   - jndi-name: catalogue
-    connection-url: jdbc:postgresql://192.168.99.100:5432/catalogue
+    connection-url: jdbc:postgresql://localhost:5432/catalogue
     username: postgres
     password: admin
     max-pool-size: 20
-  config:
-    etcd:
-      hosts: http://192.168.99.100:2379
-  discovery:
-    etcd:
-      hosts: http://192.168.99.100:2379
-app-properties:
-  external-services:
-    enabled: false
+  #config:
+  #  etcd:
+  #    hosts: http://192.168.99.100:2379
+  #discovery:
+  #  etcd:
+  #    hosts: http://192.168.99.100:2379
+#app-properties:
+ # external-services:
+ #   enabled: false

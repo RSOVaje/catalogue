@@ -12,7 +12,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <name>catalogue</name>
+  <name>catalogue</name>
   <url>http://maven.apache.org</url>
 
   <packaging>pom</packaging>

@@ -28,17 +28,34 @@ public class CatalogueResource {
     @POST
     public Response UploadAndSave(Catalogue catalogue) {
 
-        return null;
+
+        catalogue = catalogueBean.createCatalogue(catalogue);
+
+        if (catalogue.getId() != null) {
+            return Response.status(Response.Status.CREATED).entity(catalogue).build();
+        } else {
+            return Response.status(Response.Status.CONFLICT).entity(catalogue).build();
+        }
     }
 
     @GET
-    @Path("/{idProfila}")
+    @Path("profil/{idProfila}")
     public Response getCatalogueByIdProfila(@PathParam("idProfila") Integer idProfila) {
         List<Catalogue> list = catalogueBean.getCatalogueByPerson(idProfila);
         if (list == null) {
             return Response.status(Response.Status.NOT_FOUND).build();
         }
         return Response.status(Response.Status.OK).entity(list).build();
+    }
+
+    @GET
+    @Path("/{id}")
+    public Response getCatalogueById(@PathParam("id") Integer id) {
+         Catalogue catalogue = catalogueBean.getCatalogueById(id);
+        if (catalogue == null) {
+            return Response.status(Response.Status.NOT_FOUND).build();
+        }
+        return Response.status(Response.Status.OK).entity(catalogue).build();
     }
 
 }

@@ -16,7 +16,7 @@ cache:
 env:
 - DOCKER_IMAGE=rsovaje/catalogue:0.1
 - DOCKER_PASSWORD=rsovaje123
-- DOCKER_USERNAME=rsovaje123
+- DOCKER_USERNAME=rsovaje
 
 
 script:

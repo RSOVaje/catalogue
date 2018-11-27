@@ -110,7 +110,7 @@
           <entry key="Dockerfile" value="12" />
           <entry key="dummy" value="8" />
           <entry key="java" value="764" />
-          <entry key="sql" value="296" />
+          <entry key="sql" value="315" />
           <entry key="txt" value="18" />
           <entry key="xml" value="263" />
           <entry key="yaml" value="94" />
@@ -122,7 +122,7 @@
           <entry key="Dockerfile" value="11" />
           <entry key="JAVA" value="764" />
           <entry key="PLAIN_TEXT" value="27" />
-          <entry key="SQL" value="156" />
+          <entry key="SQL" value="175" />
           <entry key="Scratch" value="140" />
           <entry key="XML" value="263" />
           <entry key="YAML" value="177" />
@@ -165,8 +165,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret column="107" selection-start-column="107" selection-end-column="107" />
+            <state relative-caret-position="85">
+              <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -561,12 +561,12 @@
       <workItem from="1543257121928" duration="706000" />
       <workItem from="1543262537096" duration="3326000" />
       <workItem from="1543304543740" duration="330000" />
-      <workItem from="1543305145857" duration="3613000" />
+      <workItem from="1543305145857" duration="3977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70720000" />
+    <option name="totallyTimeSpent" value="71084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,7 +581,7 @@
     <frame x="-7" y="0" width="814" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36206895" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36206895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -596,7 +596,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.32884097" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32742155" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32742155" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5044987" side_tool="true" weight="0.31940702" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.4993573" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -826,8 +826,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret column="107" selection-start-column="107" selection-end-column="107" />
+        <state relative-caret-position="85">
+          <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
         </state>
       </provider>
     </entry>

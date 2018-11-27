@@ -110,7 +110,7 @@
           <entry key="Dockerfile" value="12" />
           <entry key="dummy" value="8" />
           <entry key="java" value="764" />
-          <entry key="sql" value="315" />
+          <entry key="sql" value="316" />
           <entry key="txt" value="18" />
           <entry key="xml" value="263" />
           <entry key="yaml" value="94" />
@@ -122,7 +122,7 @@
           <entry key="Dockerfile" value="11" />
           <entry key="JAVA" value="764" />
           <entry key="PLAIN_TEXT" value="27" />
-          <entry key="SQL" value="175" />
+          <entry key="SQL" value="176" />
           <entry key="Scratch" value="140" />
           <entry key="XML" value="263" />
           <entry key="YAML" value="177" />
@@ -166,7 +166,7 @@
         <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
+              <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -561,12 +561,12 @@
       <workItem from="1543257121928" duration="706000" />
       <workItem from="1543262537096" duration="3326000" />
       <workItem from="1543304543740" duration="330000" />
-      <workItem from="1543305145857" duration="3977000" />
+      <workItem from="1543305145857" duration="4321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71084000" />
+    <option name="totallyTimeSpent" value="71428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -827,7 +827,7 @@
     <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
+          <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
         </state>
       </provider>
     </entry>

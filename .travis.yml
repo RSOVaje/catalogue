@@ -15,8 +15,6 @@ cache:
 
 env:
 - DOCKER_IMAGE=rsovaje/catalogue:0.1
-- DOCKER_PASSWORD=rsovaje123
-- DOCKER_USERNAME=rsovaje
 
 
 script:
@@ -24,5 +22,5 @@ script:
 - docker build -t "$DOCKER_IMAGE" .
 
 after_success:
-- docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
+- docker login --username=rsovaje --password=rsovaje123
 - docker push "$DOCKER_IMAGE"

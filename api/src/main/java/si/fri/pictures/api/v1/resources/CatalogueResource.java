@@ -27,7 +27,6 @@ public class CatalogueResource {
     protected UriInfo uriInfo;
 
     @GET
-    @Path("/")
     public Response getCatalogue() {
         List<Catalogue> catalogues = catalogueBean.getCatalogue();
         if (catalogues == null) {

@@ -112,7 +112,7 @@
         <counts>
           <entry key="Dockerfile" value="12" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="1489" />
+          <entry key="java" value="1505" />
           <entry key="sql" value="316" />
           <entry key="txt" value="18" />
           <entry key="xml" value="263" />
@@ -123,7 +123,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="11" />
-          <entry key="JAVA" value="1489" />
+          <entry key="JAVA" value="1505" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="SQL" value="176" />
           <entry key="Scratch" value="140" />
@@ -208,8 +208,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/CatalogueResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="182">
+              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -217,8 +217,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/DemoResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="539">
+              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -464,7 +464,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543342002119" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543342846504" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -650,12 +650,12 @@
       <workItem from="1543304543740" duration="330000" />
       <workItem from="1543305145857" duration="5840000" />
       <workItem from="1543316166269" duration="742000" />
-      <workItem from="1543335845003" duration="3795000" />
+      <workItem from="1543335845003" duration="4632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77484000" />
+    <option name="totallyTimeSpent" value="78321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -950,15 +950,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/CatalogueResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="182">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/DemoResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="539">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

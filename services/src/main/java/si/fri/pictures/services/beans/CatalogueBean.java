@@ -58,6 +58,13 @@ public class CatalogueBean {
         return query.getResultList();
 
     }
+    public List<Catalogue> getCatalogue() {
+
+        TypedQuery<Catalogue> query = em.createNamedQuery("Catalogue.getAll", Catalogue.class);
+
+        return query.getResultList();
+
+    }
 
     public Catalogue getCatalogueById(Integer id) {
 

@@ -26,6 +26,16 @@ public class CatalogueResource {
     @Context
     protected UriInfo uriInfo;
 
+    @GET
+    @Path("/")
+    public Response getCatalogue() {
+        List<Catalogue> catalogues = catalogueBean.getCatalogue();
+        if (catalogues == null) {
+            return Response.status(Response.Status.NOT_FOUND).build();
+        }
+        return Response.status(Response.Status.OK).entity(catalogues).build();
+    }
+
     @POST
     public Response UploadAndSave(Catalogue catalogue) {
 

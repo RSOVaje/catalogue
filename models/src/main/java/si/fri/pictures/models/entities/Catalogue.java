@@ -8,7 +8,8 @@ import javax.persistence.*;
 @Entity(name = "catalogue")
 @NamedQueries(value = {
        @NamedQuery(name = "Catalogue.getByIdProfile", query = "SELECT c FROM catalogue c WHERE c.idProfila = :idProfila"),
-        @NamedQuery(name = "Catalogue.getById", query = "SELECT c FROM catalogue c WHERE c.id = :id")
+        @NamedQuery(name = "Catalogue.getById", query = "SELECT c FROM catalogue c WHERE c.id = :id"),
+        @NamedQuery(name = "Catalogue.getAll", query = "SELECT c FROM catalogue c")
 })
 public class Catalogue {
 

@@ -31,8 +31,8 @@ public class DemoResource {
         info.setOpis_projekta("Nas projekt implementira aplikacijo za deljenje slik.");
 
         List<String> mikrostoritve = new ArrayList();
-        mikrostoritve.add("http://35.189.96.118:8081/v1/catalogue");
-        mikrostoritve.add("http://35.197.209.159:8080/v1/profile");
+        mikrostoritve.add("http://35.189.96.118:8080/v1/catalogue");
+        mikrostoritve.add("http://35.197.209.159:8081/v1/profile");
         info.setMikrostoritve(mikrostoritve);
 
         List<String> github = new ArrayList();

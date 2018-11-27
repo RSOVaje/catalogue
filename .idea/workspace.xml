@@ -88,7 +88,7 @@
           <entry key="catalogue" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="28" />
+          <entry key="java" value="29" />
           <entry key="sql" value="6" />
           <entry key="xml" value="22" />
           <entry key="yaml" value="3" />
@@ -100,7 +100,7 @@
           <entry key="Database Element" value="1" />
           <entry key="Dockerfile" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="29" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="4" />
           <entry key="Scratch" value="2" />
@@ -112,7 +112,7 @@
         <counts>
           <entry key="Dockerfile" value="12" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="1476" />
+          <entry key="java" value="1486" />
           <entry key="sql" value="316" />
           <entry key="txt" value="18" />
           <entry key="xml" value="263" />
@@ -123,7 +123,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="11" />
-          <entry key="JAVA" value="1476" />
+          <entry key="JAVA" value="1486" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="SQL" value="176" />
           <entry key="Scratch" value="140" />
@@ -135,15 +135,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/resources/config.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -214,11 +205,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/CatalogueResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="91" column="23" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="23" />
+            <state relative-caret-position="301">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/DemoResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -310,6 +313,7 @@
         <option value="$PROJECT_DIR$/kubernetes/catalogue-deployment.yaml" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/dtos/Info.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/CatalogueResource.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/DemoResource.java" />
       </list>
     </option>
   </component>
@@ -340,7 +344,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="867" />
@@ -415,7 +419,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543337970114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543341017719" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -601,12 +605,12 @@
       <workItem from="1543304543740" duration="330000" />
       <workItem from="1543305145857" duration="5840000" />
       <workItem from="1543316166269" duration="742000" />
-      <workItem from="1543335845003" duration="2110000" />
+      <workItem from="1543335845003" duration="2908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75799000" />
+    <option name="totallyTimeSpent" value="76597000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,10 +622,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="814" height="867" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38196287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18508998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -636,7 +640,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.32884097" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32742155" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32345015" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5044987" side_tool="true" weight="0.31940702" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.4993573" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -901,8 +905,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/CatalogueResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="91" column="23" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="23" />
+        <state relative-caret-position="301">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/DemoResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

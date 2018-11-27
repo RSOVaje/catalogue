@@ -1,7 +1,7 @@
 version: "3"
 services:
   postgres:
-    image: postgres:10.5
+    image: rsovaje/postgres:10.5
     ports:
     - 5432:5432
     environment:
@@ -9,11 +9,10 @@ services:
       POSTGRES_PASSWORD: admin
       POSTGRES_DB: catalogue
   catalogue:
-    image: catalogue:0.1
+    image: rsovaje/catalogue:0.1
     ports:
     - 8080:8080
     environment:
-      #KUMULUZEE_DATASOURCES0_CONNECTIONURL: jdbc:postgresql://192.168.99.100:5432/catalogue
       KUMULUZEE_DATASOURCES0_CONNECTIONURL: jdbc:postgresql://postgres:5432/catalogue
       #KUMULUZEE_CONFIG_ETCD_HOSTS: http://etcd:2379
       #KUMULUZEE_DISCOVERY_ETCD_HOSTS: http://etcd:2379

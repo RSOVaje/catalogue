@@ -9,7 +9,7 @@ kumuluzee:
       port: 8080
   datasources:
   - jndi-name: catalogue
-    connection-url: jdbc:postgresql://localhost:5432/catalogue
+    connection-url: jdbc:postgresql://192.168.99.100:5432/catalogue
     username: postgres
     password: admin
     max-pool-size: 20

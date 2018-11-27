@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81dc3105-9104-4681-9ce9-21d30a25953c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="81dc3105-9104-4681-9ce9-21d30a25953c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/models/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
@@ -614,12 +612,12 @@
       <workItem from="1543257121928" duration="706000" />
       <workItem from="1543262537096" duration="3326000" />
       <workItem from="1543304543740" duration="330000" />
-      <workItem from="1543305145857" duration="2100000" />
+      <workItem from="1543305145857" duration="2758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69207000" />
+    <option name="totallyTimeSpent" value="69865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,7 +631,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="867" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36206895" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36206895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -648,7 +646,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.32884097" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32742155" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32742155" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5044987" side_tool="true" weight="0.31940702" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.4993573" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="10" />

@@ -18,7 +18,7 @@ import java.util.List;
 public class DemoResource {
 
     @GET
-    @Path("/demo/info")
+    @Path("info")
     public Response getInfo() {
         Info info = new Info();
 

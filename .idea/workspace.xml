@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="81dc3105-9104-4681-9ce9-21d30a25953c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/CatalogueResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/CatalogueResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/catalogue-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/catalogue-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,7 +75,7 @@
           <entry key="gitignore" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="44" />
-          <entry key="sql" value="7" />
+          <entry key="sql" value="8" />
           <entry key="xml" value="34" />
           <entry key="yaml" value="9" />
           <entry key="yml" value="5" />
@@ -94,7 +88,7 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="44" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="SQL" value="5" />
+          <entry key="SQL" value="6" />
           <entry key="Scratch" value="2" />
           <entry key="XML" value="34" />
           <entry key="YAML" value="14" />
@@ -104,23 +98,23 @@
         <counts>
           <entry key="Dockerfile" value="12" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="1921" />
+          <entry key="java" value="1947" />
           <entry key="sql" value="390" />
           <entry key="txt" value="18" />
           <entry key="xml" value="353" />
-          <entry key="yaml" value="155" />
-          <entry key="yml" value="183" />
+          <entry key="yaml" value="156" />
+          <entry key="yml" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="11" />
-          <entry key="JAVA" value="1921" />
+          <entry key="JAVA" value="1947" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="SQL" value="250" />
           <entry key="Scratch" value="140" />
           <entry key="XML" value="353" />
-          <entry key="YAML" value="338" />
+          <entry key="YAML" value="341" />
         </counts>
       </usages-collector>
     </session>
@@ -130,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="51">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,10 +136,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="53" />
+            <state relative-caret-position="17">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
                 <element signature="e#430#431#0" expanded="true" />
                 <element signature="e#467#468#0" expanded="true" />
@@ -154,6 +147,10 @@
                 <element signature="e#564#565#0" expanded="true" />
                 <element signature="e#615#616#0" expanded="true" />
                 <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,17 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/configuration/AppProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="51">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -195,11 +183,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+            <state relative-caret-position="250">
+              <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -213,11 +201,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="260">
+              <caret line="78" column="146" lean-forward="true" selection-start-line="78" selection-start-column="146" selection-end-line="78" selection-end-column="146" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,6 +233,7 @@
       <find>catalogue-jpa</find>
       <find>mvn clean package</find>
       <find>@Nam</find>
+      <find>0.1</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -287,10 +276,10 @@
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/dtos/Picture.java" />
         <option value="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java" />
-        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java" />
+        <option value="$PROJECT_DIR$/services/pom.xml" />
         <option value="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql" />
         <option value="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" />
-        <option value="$PROJECT_DIR$/services/pom.xml" />
+        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java" />
       </list>
     </option>
   </component>
@@ -520,7 +509,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547408967232" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547410803208" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -719,12 +708,12 @@
       <workItem from="1546763677716" duration="588000" />
       <workItem from="1546843048144" duration="1805000" />
       <workItem from="1546871020320" duration="592000" />
-      <workItem from="1547367375553" duration="16745000" />
+      <workItem from="1547367375553" duration="18489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129076000" />
+    <option name="totallyTimeSpent" value="130820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,7 +728,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22557841" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22557841" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -754,7 +743,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32345015" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32345015" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5044987" side_tool="true" weight="0.31940702" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.4993573" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -963,13 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/configuration/AppProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -991,6 +973,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/configuration/AppProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1000,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="51">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1010,17 +1006,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="53" />
+        <state relative-caret-position="17">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
             <element signature="e#430#431#0" expanded="true" />
             <element signature="e#467#468#0" expanded="true" />
@@ -1029,24 +1024,21 @@
             <element signature="e#564#565#0" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="260">
+          <caret line="78" column="146" lean-forward="true" selection-start-line="78" selection-start-column="146" selection-end-line="78" selection-end-column="146" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
         </state>
       </provider>
     </entry>

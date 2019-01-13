@@ -76,7 +76,7 @@ public class CatalogueBean {
 
         TypedQuery<Catalogue> query = em.createNamedQuery("Catalogue.getById", Catalogue.class).setParameter("id", id);
         Catalogue catalogue =  query.getSingleResult();
-        TypedQuery<CataloguePictures> query2 = em.createNamedQuery("CataloguePictures.getById", CataloguePictures.class).setParameter("id", id);
+        TypedQuery<CataloguePictures> query2 = em.createNamedQuery("CataloguePictures.getByIdCatalogue", CataloguePictures.class).setParameter("idCatalogue", id);
         List<CataloguePictures> cp = query2.getResultList();
 
         List<Picture> pic = catalogue.getPictures();

@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="81dc3105-9104-4681-9ce9-21d30a25953c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/models/target/" />
@@ -102,8 +100,8 @@
           <entry key="sql" value="390" />
           <entry key="txt" value="18" />
           <entry key="xml" value="353" />
-          <entry key="yaml" value="156" />
-          <entry key="yml" value="185" />
+          <entry key="yaml" value="157" />
+          <entry key="yml" value="187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -114,7 +112,7 @@
           <entry key="SQL" value="250" />
           <entry key="Scratch" value="140" />
           <entry key="XML" value="353" />
-          <entry key="YAML" value="341" />
+          <entry key="YAML" value="344" />
         </counts>
       </usages-collector>
     </session>
@@ -156,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -201,14 +199,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="78" column="146" lean-forward="true" selection-start-line="78" selection-start-column="146" selection-end-line="78" selection-end-column="146" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-238">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -234,6 +229,7 @@
       <find>mvn clean package</find>
       <find>@Nam</find>
       <find>0.1</find>
+      <find>0.2</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -277,9 +273,9 @@
         <option value="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java" />
         <option value="$PROJECT_DIR$/services/pom.xml" />
-        <option value="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql" />
         <option value="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java" />
+        <option value="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql" />
       </list>
     </option>
   </component>
@@ -509,7 +505,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547410803208" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547411617045" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -708,12 +704,12 @@
       <workItem from="1546763677716" duration="588000" />
       <workItem from="1546843048144" duration="1805000" />
       <workItem from="1546871020320" duration="592000" />
-      <workItem from="1547367375553" duration="18489000" />
+      <workItem from="1547367375553" duration="19302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130820000" />
+    <option name="totallyTimeSpent" value="131633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -728,7 +724,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22557841" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22557841" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -743,7 +739,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.32884097" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32345015" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32345015" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5044987" side_tool="true" weight="0.31940702" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.4993573" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -1004,13 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1034,11 +1023,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="78" column="146" lean-forward="true" selection-start-line="78" selection-start-column="146" selection-end-line="78" selection-end-column="146" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-238">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>

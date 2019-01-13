@@ -57,7 +57,7 @@ public class Catalogue {
     }
 
     public void setIdProfila(Integer idProfila) {
-        idProfila = idProfila;
+        this.idProfila = idProfila;
     }
 
     public void setOpis(String opis) {

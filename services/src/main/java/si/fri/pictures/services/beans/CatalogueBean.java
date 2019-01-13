@@ -23,6 +23,7 @@ import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.UriInfo;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 import java.util.logging.Logger;
@@ -73,16 +74,20 @@ public class CatalogueBean {
     }
 
     public Catalogue getCatalogueById(Integer id) {
-
         TypedQuery<Catalogue> query = em.createNamedQuery("Catalogue.getById", Catalogue.class).setParameter("id", id);
         Catalogue catalogue =  query.getSingleResult();
-        TypedQuery<CataloguePictures> query2 = em.createNamedQuery("CataloguePictures.getByIdCatalogue", CataloguePictures.class).setParameter("idCatalogue", id);
-        List<CataloguePictures> cp = query2.getResultList();
 
-        List<Picture> pic = catalogue.getPictures();
-        for (int i = 0; i < cp.size(); i++) {
-            pic.add(getPicture(cp.get(i).getIdPicture()));
-        }
+        TypedQuery<CataloguePictures> query2 = em.createNamedQuery("CataloguePictures.getByIdCatalogue", CataloguePictures.class).setParameter("idCatalogue", id);
+
+        List<CataloguePictures> cp = query2.getResultList();
+        Iterator it = cp.iterator();
+
+        List<Picture> pic = null;
+        if(it.hasNext() != false)
+            pic = catalogue.getPictures();
+            for (int i = 0; i < cp.size(); i++) {
+                pic.add(getPicture(cp.get(i).getIdPicture()));
+            }
         catalogue.setPictures(pic);
         return catalogue;
 

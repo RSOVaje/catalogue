@@ -4,7 +4,9 @@ import javax.enterprise.context.RequestScoped;
 import com.kumuluz.ee.discovery.annotations.DiscoverService;
 import com.kumuluz.ee.rest.beans.QueryParameters;
 import com.kumuluz.ee.rest.utils.JPAUtils;
+import si.fri.pictures.models.dtos.Picture;
 import si.fri.pictures.models.entities.Catalogue;
+import si.fri.pictures.models.entities.CataloguePictures;
 import si.fri.pictures.services.configuration.AppProperties;
 
 
@@ -39,6 +41,10 @@ public class CatalogueBean {
     @Inject
     private CatalogueBean catalogueBean;
 
+    @Inject
+    @DiscoverService("picture")
+    private Optional<String> pictureUrl;
+
     private Client httpClient;
 
     //@Inject
@@ -69,9 +75,32 @@ public class CatalogueBean {
     public Catalogue getCatalogueById(Integer id) {
 
         TypedQuery<Catalogue> query = em.createNamedQuery("Catalogue.getById", Catalogue.class).setParameter("id", id);
+        Catalogue catalogue =  query.getSingleResult();
+        TypedQuery<CataloguePictures> query2 = em.createNamedQuery("CataloguePictures.getById", CataloguePictures.class).setParameter("id", id);
+        List<CataloguePictures> cp = query2.getResultList();
 
-        return query.getSingleResult();
+        List<Picture> pic = catalogue.getPictures();
+        for (int i = 0; i < cp.size(); i++) {
+            pic.add(getPicture(cp.get(i).getIdPicture()));
+        }
+        catalogue.setPictures(pic);
+        return catalogue;
 
+    }
+
+    public Picture getPicture(Integer id) {
+        if(appProperties.isExternalServicesEnabled() && pictureUrl.isPresent()) {
+            try {
+                return httpClient
+                        .target(pictureUrl.get() + "/v1/picture/" + id)
+                        .request().get(new GenericType<Picture>() {
+                        });
+            } catch (WebApplicationException | ProcessingException e) {
+                log.severe(e.getMessage());
+                throw new InternalServerErrorException(e);
+            }
+        }
+        return null;
     }
 
     public Catalogue createCatalogue(Catalogue catalogue) {
@@ -85,6 +114,19 @@ public class CatalogueBean {
         }
 
         return catalogue;
+    }
+
+    public CataloguePictures addPictureInCatalogue(CataloguePictures cp) {
+
+        try {
+            beginTx();
+            em.persist(cp);
+            commitTx();
+        } catch (Exception e) {
+            rollbackTx();
+        }
+
+        return cp;
     }
 
     private void beginTx() {

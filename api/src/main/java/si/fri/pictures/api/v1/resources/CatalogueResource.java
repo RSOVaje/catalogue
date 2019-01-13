@@ -1,6 +1,5 @@
 package si.fri.pictures.api.v1.resources;
 
-import si.fri.pictures.models.dtos.Info;
 import si.fri.pictures.models.entities.Catalogue;
 import si.fri.pictures.services.beans.CatalogueBean;
 

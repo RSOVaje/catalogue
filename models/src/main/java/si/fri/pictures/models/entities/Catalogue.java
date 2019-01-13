@@ -3,7 +3,10 @@ package si.fri.pictures.models.entities;
 
 
 
+import si.fri.pictures.models.dtos.Picture;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity(name = "catalogue")
 @NamedQueries(value = {
@@ -17,8 +20,8 @@ public class Catalogue {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-
-    private Byte[] picture;
+    @Transient
+    private List<Picture> pictures;
 
     @Column(name = "idprofila")
     private Integer idProfila;
@@ -33,8 +36,8 @@ public class Catalogue {
 
 
 
-    public Byte[] getPicture() {
-        return picture;
+    public List<Picture> getPictures() {
+        return pictures;
     }
 
     public Integer getIdProfila() {
@@ -49,8 +52,8 @@ public class Catalogue {
         this.id = id;
     }
 
-    public void setPicture(Byte[] picture) {
-        this.picture = picture;
+    public void setPictures(List<Picture> pictures) {
+        this.pictures = pictures;
     }
 
     public void setIdProfila(Integer idProfila) {

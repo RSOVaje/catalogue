@@ -1,3 +1,8 @@
-INSERT INTO catalogue (picture, idProfila, opis) VALUES ('/9j/4AAQSkZJRgABAQEAYABgAAD', '1', 'Sea Sunset');
-INSERT INTO catalogue (picture, idProfila, opis) VALUES ('/9j/4AAQSkZJRgABAQEASABIAAD', '2', 'Flower');
-INSERT INTO catalogue (picture, idProfila, opis) VALUES ('/9j/4AAQSkZJRgABAQAAAQABAAD/2w', '3', 'Autumn Waterfall');
+INSERT INTO cataloguePictures (idpicture, id) VALUES ('1', '1');
+INSERT INTO cataloguePictures (idpicture, id) VALUES ('2', '2');
+INSERT INTO cataloguePictures (idpicture, id) VALUES ('3', '3');
+INSERT INTO cataloguePictures (idpicture, id) VALUES ('1', '3');
+
+INSERT INTO catalogue (id, idprofila, opis) VALUES ('1', '1', 'Summer');
+INSERT INTO catalogue (id, idprofila, opis) VALUES ('2', '2', 'Flowers');
+INSERT INTO catalogue (id, idprofila, opis) VALUES ('2', '3', 'Autumn');

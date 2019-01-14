@@ -85,7 +85,6 @@ public class CatalogueBean {
 
         List<Picture> pic = new ArrayList<>();
         if(it.hasNext() == true) {
-            pic = catalogue.getPictures();
             for (int i = 0; i < cp.size(); i++) {
                 CataloguePictures cat = cp.get(i);
                 Integer pid = cat.getIdPicture();

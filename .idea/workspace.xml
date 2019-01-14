@@ -95,23 +95,23 @@
         <counts>
           <entry key="Dockerfile" value="12" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="2122" />
+          <entry key="java" value="2131" />
           <entry key="sql" value="408" />
           <entry key="txt" value="18" />
           <entry key="xml" value="353" />
-          <entry key="yaml" value="161" />
-          <entry key="yml" value="195" />
+          <entry key="yaml" value="162" />
+          <entry key="yml" value="197" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="11" />
-          <entry key="JAVA" value="2122" />
+          <entry key="JAVA" value="2131" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="SQL" value="268" />
           <entry key="Scratch" value="140" />
           <entry key="XML" value="353" />
-          <entry key="YAML" value="356" />
+          <entry key="YAML" value="359" />
         </counts>
       </usages-collector>
     </session>
@@ -169,11 +169,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+            <state relative-caret-position="119">
+              <caret line="85" column="51" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2695#2704#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,6 +213,7 @@
       <find>0.4</find>
       <find>0.5</find>
       <find>0.6</find>
+      <find>0.7</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -729,12 +729,12 @@
       <workItem from="1546843048144" duration="1805000" />
       <workItem from="1546871020320" duration="592000" />
       <workItem from="1547367375553" duration="23573000" />
-      <workItem from="1547452642512" duration="1901000" />
+      <workItem from="1547452642512" duration="2724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137805000" />
+    <option name="totallyTimeSpent" value="138628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1038,11 +1038,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+        <state relative-caret-position="119">
+          <caret line="85" column="51" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2695#2704#0" expanded="true" />
           </folding>
         </state>
       </provider>

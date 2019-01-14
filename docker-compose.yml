@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: admin
       POSTGRES_DB: catalogue
   catalogue:
-    image: rsovaje/catalogue:0.8
+    image: rsovaje/catalogue:0.9
     ports:
     - 8080:8080
     environment:

@@ -83,7 +83,7 @@ public class CatalogueBean {
         List<CataloguePictures> cp = query2.getResultList();
         Iterator it = cp.iterator();
 
-        List<Picture> pic = new ArrayList<Picture>();
+        List<Picture> pic = catalogue.getPictures();
         if(it.hasNext() == true) {
             pic = catalogue.getPictures();
             for (int i = 0; i < cp.size(); i++) {

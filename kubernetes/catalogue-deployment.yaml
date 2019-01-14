@@ -13,7 +13,7 @@ spec:
         app: catalogue
     spec:
       containers:
-      - image: rsovaje/catalogue:0.7
+      - image: rsovaje/catalogue:0.8
         name: catalogue
         env:
         - name: KUMULUZEE_DISCOVERY_CLUSTER

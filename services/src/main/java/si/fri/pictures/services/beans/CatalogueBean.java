@@ -23,6 +23,7 @@ import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.UriInfo;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
@@ -82,15 +83,18 @@ public class CatalogueBean {
         List<CataloguePictures> cp = query2.getResultList();
         Iterator it = cp.iterator();
 
-        List<Picture> pic = null;
-        if(it.hasNext() == true)
+        List<Picture> pic = new ArrayList<Picture>();
+        if(it.hasNext() == true) {
             pic = catalogue.getPictures();
             for (int i = 0; i < cp.size(); i++) {
                 CataloguePictures cat = cp.get(i);
                 Integer pid = cat.getIdPicture();
                 Picture pi = getPicture(pid);
-                pic.add(pi);
+                if (pi != null) {
+                    pic.add(pi);
+                }
             }
+        }
         catalogue.setPictures(pic);
         return catalogue;
 

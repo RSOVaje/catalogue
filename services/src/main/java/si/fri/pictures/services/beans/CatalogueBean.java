@@ -83,10 +83,13 @@ public class CatalogueBean {
         Iterator it = cp.iterator();
 
         List<Picture> pic = null;
-        if(it.hasNext() != false)
+        if(it.hasNext() == true)
             pic = catalogue.getPictures();
             for (int i = 0; i < cp.size(); i++) {
-                pic.add(getPicture(cp.get(i).getIdPicture()));
+                CataloguePictures cat = cp.get(i);
+                Integer pid = cat.getIdPicture();
+                Picture pi = getPicture(pid);
+                pic.add(pi);
             }
         catalogue.setPictures(pic);
         return catalogue;

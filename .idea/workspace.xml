@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81dc3105-9104-4681-9ce9-21d30a25953c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,14 +56,14 @@
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.37" value="2" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -98,23 +96,23 @@
         <counts>
           <entry key="Dockerfile" value="12" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="1992" />
+          <entry key="java" value="2084" />
           <entry key="sql" value="408" />
           <entry key="txt" value="18" />
           <entry key="xml" value="353" />
-          <entry key="yaml" value="159" />
-          <entry key="yml" value="191" />
+          <entry key="yaml" value="160" />
+          <entry key="yml" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="11" />
-          <entry key="JAVA" value="1992" />
+          <entry key="JAVA" value="2084" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="SQL" value="268" />
           <entry key="Scratch" value="140" />
           <entry key="XML" value="353" />
-          <entry key="YAML" value="350" />
+          <entry key="YAML" value="353" />
         </counts>
       </usages-collector>
     </session>
@@ -124,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/CatalogueApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="102">
               <caret line="9" column="53" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -136,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/CatalogueResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="629">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="323">
               <caret line="21" column="29" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -160,20 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="799">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,10 +168,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -214,6 +212,7 @@
       <find>0.2</find>
       <find>0.3</find>
       <find>0.4</find>
+      <find>0.5</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -257,9 +256,9 @@
         <option value="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/services/pom.xml" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java" />
-        <option value="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java" />
         <option value="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql" />
+        <option value="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" />
       </list>
     </option>
   </component>
@@ -302,6 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -521,7 +521,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -529,7 +528,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547416032308" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547417688195" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -728,12 +727,13 @@
       <workItem from="1546763677716" duration="588000" />
       <workItem from="1546843048144" duration="1805000" />
       <workItem from="1546871020320" duration="592000" />
-      <workItem from="1547367375553" duration="22777000" />
+      <workItem from="1547367375553" duration="23573000" />
+      <workItem from="1547452642512" duration="254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135108000" />
+    <option name="totallyTimeSpent" value="136158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,9 +746,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22557841" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2281491" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -763,7 +762,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.32884097" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32345015" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49421594" visible="true" weight="0.32345015" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5044987" side_tool="true" weight="0.31940702" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.4993573" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -848,13 +847,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://12eefe25-4307-40aa-8eee-abf72a206cce/database/catalogue/schema/public/table/catalogue">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://12eefe25-4307-40aa-8eee-abf72a206cce/database/catalogue/schema/public/table/catalogue" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/88d1b07e-4b51-4772-acb2-c055c45b28c8/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -904,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,7 +986,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/CatalogueApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="102">
           <caret line="9" column="53" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1006,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/pictures/api/v1/resources/CatalogueResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="629">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1016,7 +1006,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="323">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1026,18 +1016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="799">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1046,8 +1026,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

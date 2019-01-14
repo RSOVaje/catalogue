@@ -90,7 +90,9 @@ public class CatalogueBean {
                 CataloguePictures cat = cp.get(i);
                 Integer pid = cat.getIdPicture();
                 Picture pi = getPicture(pid);
+                System.out.print(pi.getId());
                 if (pi != null) {
+                    log.info(Integer.toString(pi.getId()));
                     pic.add(pi);
                 }
             }

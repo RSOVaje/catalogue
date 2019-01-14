@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81dc3105-9104-4681-9ce9-21d30a25953c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/catalogue-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/catalogue-deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,7 +95,7 @@
         <counts>
           <entry key="Dockerfile" value="12" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="2196" />
+          <entry key="java" value="2207" />
           <entry key="sql" value="408" />
           <entry key="txt" value="18" />
           <entry key="xml" value="353" />
@@ -109,7 +106,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="11" />
-          <entry key="JAVA" value="2196" />
+          <entry key="JAVA" value="2207" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="SQL" value="268" />
           <entry key="Scratch" value="140" />
@@ -206,7 +203,7 @@
         <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="95" column="32" lean-forward="true" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+              <caret line="95" column="17" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,8 +214,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -776,12 +773,12 @@
       <workItem from="1546843048144" duration="1805000" />
       <workItem from="1546871020320" duration="592000" />
       <workItem from="1547367375553" duration="23573000" />
-      <workItem from="1547452642512" duration="4382000" />
+      <workItem from="1547452642512" duration="5162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140286000" />
+    <option name="totallyTimeSpent" value="141066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1011,13 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1053,16 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/Catalogue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
@@ -1083,10 +1063,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-customers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/pictures/models/entities/CataloguePictures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/pictures/services/beans/CatalogueBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="95" column="32" lean-forward="true" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+          <caret line="95" column="17" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
